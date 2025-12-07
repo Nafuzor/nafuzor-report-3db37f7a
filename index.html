@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отчёт по номерам</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="snow-container"></div>
+    <div class="container">
+        <div id="main-view">
+            <h1>Выберите номер для управления</h1>
+            <div id="numbers-list"></div>
+            <div id="general-info">
+                <p id="plan"></p>
+                <p id="earned-today"></p>
+            </div>
+        </div>
+        <div id="detail-view" style="display: none;">
+            <h2 id="number-title"></h2>
+            <p id="status"></p>
+            <button onclick="backToMain()">🔙 Назад</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
